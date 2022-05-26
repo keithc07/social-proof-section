@@ -91,14 +91,17 @@
 
 .rating-text-1 {
     margin: 15px 25px 15px 0;
+    font-weight: 700;
 }
 
 .rating-text-2 {
     margin: 15px 0px;
+    font-weight: 700;
 }
 
 .rating-text-3 {
     margin: 15px 25px 15px 0px;
+    font-weight: 700;
 }
 
 .rating-li {
