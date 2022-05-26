@@ -10,19 +10,21 @@
         url(./images/bg-pattern-top-desktop.svg),
         url(./images/bg-pattern-bottom-desktop.svg);
     background-position:
-        bottom 400px left 0px,
+        bottom 550px left 0px,
         top 250px right 0px;
     background-repeat:
         no-repeat;
 }
 
 .outer-box {
-    width: 59%;
+    width: 72%;
+    height: 60%;
 }
 
 .box-1 {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .box-1-1 {
@@ -39,6 +41,7 @@
 .intro {
     color:hsl(303, 10%, 53%);
     font-size: 15px;
+    font-weight: 500;
 }
 
 .box-1-2 {
@@ -101,4 +104,65 @@
 
 .rating-li {
     display: inline-block;
+}
+
+.intro {
+    line-height: 1.2;
+}
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.box-2-1 {
+    width: 25%;
+    height: 30%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box-2-2 {
+    width: 25%;
+    height: 30%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.box-2-3 {
+    width: 25%;
+    height: 30%;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.username {
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.user-status {
+    color: hsl(333, 80%, 67%);
+    margin-top: 10px;
+}
+
+.user-comment {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.image {
+    float: left;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
 }
